@@ -98,24 +98,6 @@ body {
 	text-transform: none;
 	line-height: normal;
 }
-.button.styled::before {
-	background: url("../images/Sprite.png") no-repeat scroll -25px -105px;
-	content: " ";
-	height: 14px;
-	position: absolute;
-	right: 10px;
-	top: 12px;
-	width: 8px;
-}
-.button.styled::after {
-	background: url("../images/Sprite.png") no-repeat scroll -5px -484px;
-	content: " ";
-	height: 22px;
-	position: absolute;
-	right: 28px;
-	top: 8px;
-	width: 1px;
-}
 .button.orange {
 	background: #e57200 linear-gradient(to bottom, #fc9c3d 0%, #dc6e01 100%) repeat scroll;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -126,24 +108,6 @@ body {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 	color: #000000;
 }
-.button.left-styled::before {
-	background: url("../images/Sprite.png") no-repeat scroll -25px -85px;
-	content: " ";
-	height: 14px;
-	position: absolute;
-	left: 10px;
-	top: 12px;
-	width: 8px;
-}
-.button.left-styled::after {
-	background: url("../images/Sprite.png") no-repeat scroll -5px -484px;
-	content: " ";
-	height: 22px;
-	position: absolute;
-	left: 28px;
-	top: 8px;
-	width: 1px;
-}
 .button.left-orange {
 	background: #e57200 linear-gradient(to bottom, #fc9c3d 0%, #dc6e01 100%) repeat scroll;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -153,60 +117,6 @@ body {
 	background: #dc6e01 linear-gradient(to bottom, #fc8f24 0%, #c36101 100%) repeat scroll;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 	color: #000000;
-}
-.button.back::before {
-	background: url("../images/Sprite.png") no-repeat scroll -25px -85px;
-	content: " ";
-	height: 14px;
-	position: absolute;
-	left: 10px;
-	top: 12px;
-	width: 8px;
-}
-.button.back::after {
-	background: url("../images/Sprite.png") no-repeat scroll -5px -484px;
-	content: " ";
-	height: 22px;
-	position: absolute;
-	left: 28px;
-	top: 8px;
-	width: 1px;
-}
-.button.next::before {
-	background: url("../images/Sprite.png") no-repeat scroll -25px -105px;
-	content: " ";
-	height: 14px;
-	position: absolute;
-	right: 10px;
-	top: 12px;
-	width: 8px;
-}
-.button.next::after {
-	background: url("../images/Sprite.png") no-repeat scroll -5px -484px;
-	content: " ";
-	height: 22px;
-	position: absolute;
-	right: 28px;
-	top: 8px;
-	width: 1px;
-}
-.button.edit-delete::before {
-	background: url("../images/Sprite.png") no-repeat scroll -25px -105px;
-	content: " ";
-	height: 14px;
-	position: absolute;
-	right: 10px;
-	top: 12px;
-	width: 8px;
-}
-.button.edit-delete::after {
-	background: url("../images/Sprite.png") no-repeat scroll -5px -484px;
-	content: " ";
-	height: 22px;
-	position: absolute;
-	right: 28px;
-	top: 8px;
-	width: 1px;
 }
 hr {
 	border-color: #ccc;
@@ -286,17 +196,6 @@ header .support p {
 }
 header.scrolled .support p {
 	margin: 0px 15px 0 0;
-}
-header .support p a::before {
-	background: url("../images/Sprite.png") no-repeat scroll -4px -5px;
-	content: " ";
-	display: inline-block;
-	height: 16px;
-	left: -28px;
-	position: absolute;
-	top: 5px;
-	vertical-align: baseline;
-	width: 23px;
 }
 header .support p a {
 	color: #000000;
